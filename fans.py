@@ -16,20 +16,19 @@ def main():
     GPIO.setwarnings(False)
     GPIO.setup(GPIO_FANS, GPIO.OUT, initial=GPIO.HIGH)
 
-    is_close = True
+    is_running = False
     while True:
         temp = cpu_temp()
-        if is_close:
+        print temp
+        if is_running:
+            if temp < 40.0:
+                GPIO.output(GPIO_FANS, GPIO.LOW)
+                is_running = False
+        else:
             if temp > 45.0:
                 GPIO.output(GPIO_FANS, GPIO.HIGH)
-                is_close = False
-        else:
-            if temp < 42.0:
-                GPIO.output(GPIO_FANS, GPIO.LOW)
-                is_close = True
-
+                is_running = True
         time.sleep(10.0)
-        print temp
 
 if __name__ == '__main__':
     main()
