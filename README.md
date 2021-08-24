@@ -15,8 +15,8 @@ Kodi媒体中心是一个屡获殊荣的自由和开源的跨平台媒体播放�
 
 ## 2. 玩
 ### 2.1 玩转Kodi；
-### 2.2 添加系统开关机键及LED显示；
-### 2.3 添加散热风扇根据温度启停；
+### 2.2 [添加系统开关机键及LED显示](https://github.com/Fick707/rpi-kodi/blob/main/2.2%20%E6%B7%BB%E5%8A%A0%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%85%B3%E6%9C%BA%E9%94%AE%E5%8F%8ALED%E6%98%BE%E7%A4%BA.md)；
+### 2.3 [添加散热风扇根据温度启停](https://github.com/Fick707/rpi-kodi/blob/main/2.3%20%E6%B7%BB%E5%8A%A0%E6%95%A3%E7%83%AD%E9%A3%8E%E6%89%87%E6%A0%B9%E6%8D%AE%E6%B8%A9%E5%BA%A6%E5%90%AF%E5%81%9C.md)；
 ### 2.4 遥控器；
 ### 2.5.玩游戏；
 
